@@ -32,3 +32,6 @@ body {
   width: 60%;
   opacity: 0.8;
 }
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
