@@ -19,6 +19,6 @@
 
 .screen-header__dot {
   position: absolute;
-  left: 100px;
+  right: -5px;
   top: -8px;
 }

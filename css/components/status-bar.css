@@ -25,3 +25,6 @@
 .status-bar__colum:first-child span {
   margin-right: 5px;
 }
+.status-bar__colum .fa-bolt {
+  margin-right: 10px;
+}
