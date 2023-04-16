@@ -1,6 +1,7 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
+
 }
 .find-icons__icon {
   display: flex;
@@ -12,4 +13,21 @@
 }
 .find-icons__icon span {
   margin-top: 18px;
+}
+.recommended-friends {
+  padding: 25px 0px;
+  margin: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+.recommended-friends__title {
+  font-size: 14px;
+  color: var(--grey);
+}
+.recommended-friends span {
+  display: block;
+  margin: 110px 0px;
+  text-align: center;
+  color: var(--grey);
+  font-size: 18px;
 }
