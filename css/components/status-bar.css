@@ -1,12 +1,13 @@
 .status-bar {
   display: flex;
   justify-content: center;
-  padding: 5px 3px;
+  padding: 5px 0px;
   position: fixed;
   width: 100%;
   top: 0;
 }
 .status-bar__colum {
+  /* margin-left: 5px; */
   width: 33%;
 }
 .status-bar__colum:nth-child(2) {
@@ -26,5 +27,5 @@
   margin-right: 5px;
 }
 .status-bar__colum .fa-bolt {
-  margin-right: 10px;
+  /* margin-right: 5px; */
 }
