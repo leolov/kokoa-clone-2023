@@ -18,9 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
 .user-component__colum .user-component__avatar {
   font-size: 80px;
   color: #a1b6e9;
@@ -59,5 +57,12 @@ color: rgba(0,0,0,0.5);
 
 
 .user-component__colum:last-child {
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
 }
